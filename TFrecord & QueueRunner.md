@@ -30,7 +30,7 @@ Tensorflow使用黑箱的方式为数据的解析提供支持，相比于自己�
 ## 一、TFrecord
 特点：存储时以Key-Vaule键值对的形式进行存储，不改变原始数据的大小（不对数据进行编码或者解码，图像以图像原始的形式的二进制形式存储），读取时使用相同的feature_map即可使用`tf.parse_single_example`函数进行解析。
 
-####1. 生成TFrecord
+#### 1. 生成TFrecord
 
 ```python
 
@@ -86,7 +86,7 @@ writer.write(example.SerializeToString())
 ```
 `writer.write`方法类似于`file`的方式，不停地向后追加example即可。[完整代码参考](http://git.corp.kuaishou.com/zhangzhiwei/MultiLabel/blob/master/model/multi_LabelTree/MultiLabelTreeBuildTFRecord.py)
 
-####2. 解析TFrecord
+#### 2. 解析TFrecord
 解析TFrecord相对容易，直接使用跟生成TFrecord一样的`feature_map`即可，同样以dict的形式返回。使用`tf.parse_single_example(example_serialized, feature_map)`即可解析出一个相应的TFrecord样本。`example_serialized`会在`QueueRunner`详细介绍。
 
 ```python
