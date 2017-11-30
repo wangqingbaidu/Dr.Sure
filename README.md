@@ -6,7 +6,7 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 ---
 
-此目录包括2个文件夹，一个是[Algorithm](./Algorithm)，一个是[LearningTensorflow](./LearningTensorflow)，最后一个是[Online](./Online)。
+此目录包括2个文件夹，一个是[Algorithm](./Algorithm)，一个是[LearningTensorflow](./LearningTensorflow)。
 >1. [Algorithm](./Algorithm)文件夹整理目前最新的论文分享详解以及在CangJe项目中的代码支持等。
 >2. [LearningTensorflow](./LearningTensorflow)文件夹存放的是使用Tensorflow过程中的一些经验以及一些抽象出来的utils使用总结。
 
