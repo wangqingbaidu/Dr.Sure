@@ -1,4 +1,13 @@
-# Notes on learning tensorflow.
+### Attention!
+我的Dr.Sure项目正式上线了，主旨在分享学习Tensorflow以及DeepLearning中的一些想法。期间随时更新我的论文心得以及想法。
+
+Github地址：[https://github.com/wangqingbaidu/Dr.Sure](https://github.com/wangqingbaidu/Dr.Sure)
+
+CSDN地址：[http://blog.csdn.net/wangqingbaidu](http://blog.csdn.net/wangqingbaidu)
+
+个人博客地址：[http://www.wangqingbaidu.cn/](http://www.wangqingbaidu.cn/)
+
+# Dr.Sure
 
 Some examples and urls are not available because of copyright. Join us, Join [Kwai](https://www.kuaishou.com/joinus.html) for details. 
 
