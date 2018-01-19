@@ -1,6 +1,6 @@
 # Doc
 <div  align="center">    
-<img src="../assets/doc.png" width = "20%"/>
+<img src="./assets/doc.png" width = "20%"/>
 </div>
 
 此目录包括三个文件夹，一个是[Algorithm](./Algorithm)，一个是[LearningTensorflow](./LearningTensorflow)，最后一个是[Online](./Online)。
