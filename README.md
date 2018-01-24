@@ -33,3 +33,5 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 1. [TFrecord&QueueRunner.md](./LearningTensorflow/TFrecord&QueueRunner.md)，简单介绍如何针对原始数据生成TFrecord以及从TFrecord中解析出一个样本。QueueRuuner部分介绍如何将TFrecord的文件应用到计算图中。
 1. [Losses.md](./LearningTensorflow/Losses.md)，Loss function相关的介绍。
 
+## [code](./code)
+1. [distance.py](./code/distance.py)基于Tensorflow，用于计算两个tensor的距离的代码，目前已经添加cosine距离。
