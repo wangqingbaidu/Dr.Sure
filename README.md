@@ -26,6 +26,7 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 2. [DSSMs: Deep Structed Semantic Models](./Algorithm/DSSMs.md) 深度语义模型，不同信息源映射到一个相同的语义空间。
 
+3. [KL散度](./Algorithm/KL散度.md)， KL散度的一些基本知识以及应用场景，相关性质的证明。
 
 ---
 

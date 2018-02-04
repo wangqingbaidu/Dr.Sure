@@ -7,15 +7,11 @@ KL散度是用来度量使用基于Q的编码来编码来自P的样本平均所�
 
 熵的定义：
 
-```math
-H(x)=\sum_{x \in X}P(x)log(\frac{1}{P(x)})
-```
+$$H(x)=\sum_{x \in X}P(x)log(\frac{1}{P(x)})$$
 
 KL散度用来衡量两个分布之间的距离：
 
-```math
-D_{KL}(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})
-```
+$$D_{KL}(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})$$
 
 ## 性质
 1. 不对称性，KL散度可以看成是一种距离度量的方式，所以她并不具备对称性，即`D{Q|P}≠D{P|Q}`。
@@ -25,37 +21,25 @@ D_{KL}(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q
 	
 	>利用对数和不等式或者延森不等式
 	
-	>```math
-	D(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)})
-	```
+	>$$	D(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)})$$
 	
-	> ```math
-	D(Q|P)=-E(log\frac{P(x)}{Q(x)}) \geq -logE(\frac{P(x)}{Q(x)})=-log\sum_{x \in X}\frac{Q(x)P(x)}{Q(x)}
-	```
+	> $$	D(Q|P)=-E(log\frac{P(x)}{Q(x)}) \geq -logE(\frac{P(x)}{Q(x)})=-log\sum_{x \in X}\frac{Q(x)P(x)}{Q(x)}$$
 	
 	>由于
 	
-	>```math
-	\sum_{x \in X}P(x)=1
-	```
+	>$$	\sum_{x \in X}P(x)=1$$
 	
 	>所以
 	
-	>```math
-	D(Q|P) \geq 0
-	```
+	>$$	D(Q|P) \geq 0$$
 	
 	#### 证明二：
 	
 	>已知
 	
-	>```math
-	ln(x) \leq x - 1 \quad if  \quad x \leq 1
-	```
+	>$$	ln(x) \leq x - 1 \quad if  \quad x \leq 1$$
 	
-	>```math
-	D(Q|P)=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)}) \geq -\sum_{x\in X}Q(x)(\frac{P(x)}{Q(x)} - 1)=0
-	```
+	>$$	D(Q|P)=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)}) \geq -\sum_{x\in X}Q(x)(\frac{P(x)}{Q(x)} - 1)=0$$
 	>tips: 注意负号。
 
 ## 应用
