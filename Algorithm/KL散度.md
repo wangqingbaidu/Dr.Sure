@@ -45,5 +45,3 @@ $$D_{KL}(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}
 ## 应用
 1. 神经网络中，存在多个并行的网络，而最后又希望并行网络输出的结果再一个相同或者相近的分布事，使用KL散度作为一个监督信息。
 2. 不同的信息源在映射到一个相同的语义空间的时候，可以引入KL散度，用来度量这两个映射的空间处于一个相同的分布。
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
