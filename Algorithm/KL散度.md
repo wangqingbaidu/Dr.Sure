@@ -21,25 +21,25 @@ $$D_{KL}(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}
 	
 	>利用对数和不等式或者延森不等式
 	
-	>$$	D(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)})$$
+	>$$D(Q|P)=\sum_{x\in X}Q(x)log(\frac{1}{P(x)})-\sum_{x\in X}Q(x)log(\frac{1}{Q(x)})=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)})$$
 	
-	> $$	D(Q|P)=-E(log\frac{P(x)}{Q(x)}) \geq -logE(\frac{P(x)}{Q(x)})=-log\sum_{x \in X}\frac{Q(x)P(x)}{Q(x)}$$
+	> $$D(Q|P)=-E(log\frac{P(x)}{Q(x)}) \geq -logE(\frac{P(x)}{Q(x)})=-log\sum_{x \in X}\frac{Q(x)P(x)}{Q(x)}$$
 	
 	>由于
 	
-	>$$	\sum_{x \in X}P(x)=1$$
+	>$$\sum_{x \in X}P(x)=1$$
 	
 	>所以
 	
-	>$$	D(Q|P) \geq 0$$
+	>$$D(Q|P) \geq 0$$
 	
 	#### 证明二：
 	
 	>已知
 	
-	>$$	ln(x) \leq x - 1 \quad if  \quad x \leq 1$$
+	>$$ln(x) \leq x - 1 \quad if  \quad x \leq 1$$
 	
-	>$$	D(Q|P)=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)}) \geq -\sum_{x\in X}Q(x)(\frac{P(x)}{Q(x)} - 1)=0$$
+	>$$D(Q|P)=-\sum_{x\in X}Q(x)log(\frac{P(x)}{Q(x)}) \geq -\sum_{x\in X}Q(x)(\frac{P(x)}{Q(x)} - 1)=0$$
 	>tips: 注意负号。
 
 ## 应用
