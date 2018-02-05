@@ -28,6 +28,8 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 3. [KL散度](./Algorithm/KL散度.md)， KL散度的一些基本知识以及应用场景，相关性质的证明。
 
+4. [信息检索评价指标](./Algorithm/信息检索评价指标.md)，信息检索中的多种评价指标，衡量一个检索系统的好坏。
+
 ---
 
 ## [LearningTensorflow](./LearningTensorflow)
