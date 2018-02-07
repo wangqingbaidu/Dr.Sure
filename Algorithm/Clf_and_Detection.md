@@ -40,7 +40,7 @@
 	
 	>1. Selective Search，效率太低，产生的proposal过多，严重影响处理的效率。
 	>2. Proposal尺度不一的问题没有解决，在使用CNN提取特征时候，Object会出现变形。
-	>3. N个分类以及回归器，不能端到端地训练模型。
+	>3. N个分类以及回归器，不能端到端地训练模型。
 	
 2. [SPPNet](https://arxiv.org/pdf/1406.4729)，这个工作解决了R-CNN中的Proposal尺度不一致的情况。任意尺度图像的输入，不需要在开始的时候进行Resize，只需要在最后一层的featuremap上使用SPP层（特征图N等分），即可解决任意尺寸输入的问题。
 
