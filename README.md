@@ -30,6 +30,8 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 4. [信息检索评价指标](./Algorithm/信息检索评价指标.md)，信息检索中的多种评价指标，衡量一个检索系统的好坏。
 
+5. [分类、检测问题总结](./Algorithm/Clf_and_Detection.md)，总结了从12年到17年图像分类任务以及目标检测任务的发展脉络。
+
 ---
 
 ## [LearningTensorflow](./LearningTensorflow)
