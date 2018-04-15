@@ -36,7 +36,9 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 ## [LearningTensorflow](./LearningTensorflow)
 1. [TFrecord&QueueRunner.md](./LearningTensorflow/TFrecord&QueueRunner.md)，简单介绍如何针对原始数据生成TFrecord以及从TFrecord中解析出一个样本。QueueRuuner部分介绍如何将TFrecord的文件应用到计算图中。
-1. [Losses.md](./LearningTensorflow/Losses.md)，Loss function相关的介绍。
+2. [Losses.md](./LearningTensorflow/Losses.md)，Loss function相关的介绍。
+
+3. [Optimizer.pdf](./LearningTensorflow/Optimizer.pdf)，Tensorflow中相关优化函数介绍。
 
 ---
 
