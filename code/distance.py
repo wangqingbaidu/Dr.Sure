@@ -3,7 +3,6 @@
 # Created on 2018-01-24
 # Blog: www.wangqingbaidu.cn
 # Email: wangqingbaidu@gmail.com
-# From kwai, www.kuaishou.com
 # ©2015-2018 All Rights Reserved.
 #
 from __future__ import absolute_import
