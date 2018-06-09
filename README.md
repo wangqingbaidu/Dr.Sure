@@ -51,6 +51,83 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 ----
 
 # 下面是几乎目前CV相关的开源数据集的整理。
+
+## Images Analysis
+数据集|介绍|备注|网址
+:--:|:--:|:--:|:--:|
+Flickr30k|图片描述|31,783 images，每张图片5个语句标注|[链接](http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/)
+Microsoft COCO|图片描述|330,000 images,每张图片至少5个语句标注|[链接](http://cocodataset.org/#download)
+ESP Game|多标签定义图像|20,770 images，268 tags，诸如bed, light man,music|[链接](https://www.kaggle.com/c/challenges-in-representation-learning-multi-modal-learning/data)
+IAPRTC-12|多标签定义图像|19,452 images,291 tags|[链接](http://www.imageclef.org/photodata)
+NUS-WIDE|多标签定义图像|269,648 images,several tags (2-5 on average) per image|[链接](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)
+CUHK-PEDES|以文搜图|34,054 images，每张图片2条描述|[链接](http://cuhk-pedes.shuanglee.me/)
+VRD|视觉关系检测|5,000 images, 100目录，37,993对关系|[链接](https://cs.stanford.edu/people/ranjaykrishna/vrd/)
+sVG|视觉关系检测|108,000 images, 998,000对关系|[链接](https://drive.google.com/file/d/0B5RJWjAhdT04SXRfVHBKZ0dOTzQ/view)
+Visual Genome Dataset|图像属性检测|108,077 images, 5.4 M 区域块，2.8 M 属性，2.3 M 关系|[链接](https://visualgenome.org/)
+VQA|问答系统|1,105,904问题，11,059,040 回答|[链接](http://www.visualqa.org/)
+Visual7W|问答系统|327,939 问答对|[链接](http://web.stanford.edu/~yukez/visual7w/)
+TID2013|图像质量评价|25张参考图像，24个失真类型|[链接](http://www.ponomarenko.info/tid2013.htm)
+CSIQ|图像质量评价|30张参考图像，6个失真类型|[链接](http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23)
+LIVE|图像质量评价|29张参考图像，5个失真类型|[链接](http://live.ece.utexas.edu/research/quality/subjective.htm)
+WATERLOO|图像质量评价|4744张参考图像，20个失真类型|[链接](https://ece.uwaterloo.ca/~k29ma/exploration/)
+photo.net|图像美观评价|20,278张图像，打分[0,10]|[链接](http://ritendra.weebly.com/aesthetics-datasets.html)
+DPChallenge.com|图像美观评价|16,509张图像，打分[0,10]|[链接](http://ritendra.weebly.com/aesthetics-datasets.html)
+CUHK|图像美观评价|28,410张图像，只分高质量和低质量|[链接](http://mmlab.ie.cuhk.edu.hk/archive/CUHKPQ/Dataset.htm)
+AVA|图像美观评价|255,500张图像，打分[0,10]|[链接](https://github.com/mtobeiyf/ava_downloader)
+
+
+## Image Motion & Tracking
+数据集|介绍|备注|网址
+:--:|:--:|:--:|:--:|
+CUHK03|Person re-identification(人重识别)|image num:13164 person num:1360 camera num:10( 5 pairs)|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
+CUHK02|Person re-identification(人重识别)|image num:7264 person num:1816 camera num:10( 5 pairs)|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
+CUHK01|Person re-identification(人重识别)|image num:3884 person num:971 camera num: 2|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
+VIPeR|Person re-identification(人重识别)|image num:1264 person num:632 camera num:2|[链接](https://vision.soe.ucsc.edu/node/178)
+ETH1,2,3|Person re-identification(人重识别)|image num:8580 person num:83,35,28 camera num:1|[链接](http://homepages.dcc.ufmg.br/~william/datasets.html)
+PRID2011|Person re-identification(人重识别)|image num:24541 person num:934 camera num:2|[链接](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/)
+MARS|Person re-identification(人重识别)|image num:11910031 person num:1261 camera num:6|[链接](http://www.liangzheng.com.cn/Project/project_mars.html)
+Market1501|Person re-identification(人重识别)|image num:32217 person num:1501 camera num:6|[链接](http://www.liangzheng.org/Project/project_reid.html)
+Epic Fail (EF) dataset|Risk Assessment(风险评估)|video num:3000|[链接](https://vision.soe.ucsc.edu/?q=node/178)
+Street Accident (SA) dataset|Risk Assessment(风险评估)|video num:1733|[链接](https://vision.soe.ucsc.edu/?q=node/178)
+OTB-50|visual tracking(跟踪)|video num:50|[链接](http://www.visual-tracking.net)
+OTB-100|visual tracking(跟踪)|video num:100|[链接](http://www.visual-tracking.net)
+VOT2015|visual tracking(跟踪)|video num:60|[链接](http://www.votchallenge.net/vot2015/)
+ALOV300|visual tracking(跟踪)|video num:314|[链接](http://alov300pp.joomlafree.it/)
+MOT|visual tracking(跟踪)|video num:train:11 test:11|[链接](https://motchallenge.net/)
+THUMOS|Temporal action localization(动作定位)|video num:~3K activities class:20 instances:~3K|[链接](http://crcv.ucf.edu/THUMOS14/)
+ActivityNet|Temporal action localization(动作定位)|video num:20k activities class:200 instances:7.6K|[链接](http://activity-net.org/challenges/2016/)
+Mexaction2|Temporal action localization(动作定位)|activities class:2 instances:1975|[链接](http://mexculture.cnam.fr/xwiki/bin/view/Datasets/Mex+action+dataset)
+FlyingChairs dataset|optical flow(光流)|image pairs：22k|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html)
+FlyingThings3D|optical flow(光流)|image pairs：22k|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
+KITTI benchmark suite|optical flow(光流)|image pairs：1600|[链接](http://www.cvlibs.net/datasets/kitti/)
+MPI Sintel|optical flow(光流)|image pairs：1064|[链接](http://sintel.is.tue.mpg.de/)
+
+## Video Analysis & Scene Understanding
+数据集|介绍|备注|网址
+:--:|:--:|:--:|:--:|
+UCF101|动作行为识别|13320 video,101类动作，主要是五大类：1)人-物交互；2)肢体运动；3)人-人交互；4)弹奏乐器；5)运动|[链接](http://crcv.ucf.edu/data/UCF101.php)
+HMDB51|动作行为识别|7000 videos,51类，包括人脸表情动作，身体动作，人与人交互等|[链接](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
+Moments-in-Time|动作行为识别|1,000,000 videos,339类|[链接](http://moments.csail.mit.edu/)
+ActivityNet 1.3|动作行为识别|20,000 videos,200类|[链接](http://activity-net.org/challenges/2016/guidelines.html)
+Kinetics|动作行为识别|300,000 videos，400类|[链接](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
+AVA|动作行为识别|57,600 videos，80类|[链接](https://research.google.com/ava/)
+Collective Activity Dataset|群体活动行为识别|44 videos,穿叉、行走、等待、交谈和排队 五类|[链接](http://vhosts.eecs.umich.edu/vision//activity-dataset.html)
+Choi’s New Dataset|群体活动行为识别|32 videos，聚会，谈话，分开，一起走，追逐和排队 六类|None
+ActivityNet 1.3|检测动作事件的起始时间和终止时间|20,000 videos,200类动作的起始时间和终止时间|[链接](http://activity-net.org/challenges/2016/guidelines.html)
+THUMOS|检测动作事件的起始时间和终止时间|15,000 videos，101类动作的起始时间和终止时间|[链接](http://www.thumos.info/download.html)
+MED|事件检测|32,744 videos,20个事件|[链接](http://www-nlpir.nist.gov/projects/tv2017/data/)
+EventNet|事件检测|90,000 videos，500个事件|[链接](http://eventnet.ee.columbia.edu/)
+Columbia Consumer Video|事件检测|9,317 videos，20个事件|[链接](http://www.ee.columbia.edu/ln/dvmm/CCV/)
+ADE20K|事件检测|20,210 videos，900个事件|[链接](http://sceneparsing.csail.mit.edu/)
+DAVIS|视频主物体分割|50 videos，分割标注|[链接](http://davischallenge.org/)
+FBMS|视频主物体分割|59 videos，分割标注|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html)
+IJB-C|视频人脸识别|11,000 videos，|[链接](https://www.nist.gov/programs-projects/face-challenges)
+YouTube Faces|视频人脸识别|3,425 videos，1595 人|[链接](https://www.cs.tau.ac.il/~wolf/ytfaces/)
+MS-Celeb-1M|视频人脸识别|1,000,000 images，21,000人|[链接](http://www.msceleb.org/download/sampleset)
+MSVD|视频描述|1,970 videos|[链接](http://www.cs.utexas.edu/users/ml/clamp/videoDescription/YouTubeClips.tar)
+MSR-VTT-10K|视频描述|10，000 videos|[链接](http://ms-multimedia-challenge.com/2017/dataset)
+MSR-VTT-10K|视频描述|无|[链接](https://sites.google.com/site/describingmovies/lsmdc-2016/download)
+
 ## 3D Computer Vision
 数据集|介绍|备注|网址
 :--:|:--:|:--:|:--:|
@@ -144,82 +221,7 @@ Sym-PASCAL|Symmetry Detection(对称性检测)|image num: train:648 test:787 obj
 Color Checker Dataset|Color constancy(颜色恒定)|image num: 568|[链接](http://www.eecs.harvard.edu/~ayanc/oldcc/dbs.html)
 NUS 8-Camera Dataset|Color constancy(颜色恒定)|image num: 1736|[链接](http://www.comp.nus.edu.sg/~whitebal/illuminant/illuminant.html)
 
-## Image Motion & Tracking
-数据集|介绍|备注|网址
-:--:|:--:|:--:|:--:|
-CUHK03|Person re-identification(人重识别)|image num:13164 person num:1360 camera num:10( 5 pairs)|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
-CUHK02|Person re-identification(人重识别)|image num:7264 person num:1816 camera num:10( 5 pairs)|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
-CUHK01|Person re-identification(人重识别)|image num:3884 person num:971 camera num: 2|[链接](http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html)
-VIPeR|Person re-identification(人重识别)|image num:1264 person num:632 camera num:2|[链接](https://vision.soe.ucsc.edu/node/178)
-ETH1,2,3|Person re-identification(人重识别)|image num:8580 person num:83,35,28 camera num:1|[链接](http://homepages.dcc.ufmg.br/~william/datasets.html)
-PRID2011|Person re-identification(人重识别)|image num:24541 person num:934 camera num:2|[链接](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/PRID11/)
-MARS|Person re-identification(人重识别)|image num:11910031 person num:1261 camera num:6|[链接](http://www.liangzheng.com.cn/Project/project_mars.html)
-Market1501|Person re-identification(人重识别)|image num:32217 person num:1501 camera num:6|[链接](http://www.liangzheng.org/Project/project_reid.html)
-Epic Fail (EF) dataset|Risk Assessment(风险评估)|video num:3000|[链接](https://vision.soe.ucsc.edu/?q=node/178)
-Street Accident (SA) dataset|Risk Assessment(风险评估)|video num:1733|[链接](https://vision.soe.ucsc.edu/?q=node/178)
-OTB-50|visual tracking(跟踪)|video num:50|[链接](http://www.visual-tracking.net)
-OTB-100|visual tracking(跟踪)|video num:100|[链接](http://www.visual-tracking.net)
-VOT2015|visual tracking(跟踪)|video num:60|[链接](http://www.votchallenge.net/vot2015/)
-ALOV300|visual tracking(跟踪)|video num:314|[链接](http://alov300pp.joomlafree.it/)
-MOT|visual tracking(跟踪)|video num:train:11 test:11|[链接](https://motchallenge.net/)
-THUMOS|Temporal action localization(动作定位)|video num:~3K activities class:20 instances:~3K|[链接](http://crcv.ucf.edu/THUMOS14/)
-ActivityNet|Temporal action localization(动作定位)|video num:20k activities class:200 instances:7.6K|[链接](http://activity-net.org/challenges/2016/)
-Mexaction2|Temporal action localization(动作定位)|activities class:2 instances:1975|[链接](http://mexculture.cnam.fr/xwiki/bin/view/Datasets/Mex+action+dataset)
-FlyingChairs dataset|optical flow(光流)|image pairs：22k|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html)
-FlyingThings3D|optical flow(光流)|image pairs：22k|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
-KITTI benchmark suite|optical flow(光流)|image pairs：1600|[链接](http://www.cvlibs.net/datasets/kitti/)
-MPI Sintel|optical flow(光流)|image pairs：1064|[链接](http://sintel.is.tue.mpg.de/)
-
-## Video Analysis & Scene Understanding
-数据集|介绍|备注|网址
-:--:|:--:|:--:|:--:|
-UCF101|动作行为识别|13320 video,101类动作，主要是五大类：1)人-物交互；2)肢体运动；3)人-人交互；4)弹奏乐器；5)运动|[链接](http://crcv.ucf.edu/data/UCF101.php)
-HMDB51|动作行为识别|7000 videos,51类，包括人脸表情动作，身体动作，人与人交互等|[链接](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads)
-Moments-in-Time|动作行为识别|1,000,000 videos,339类|[链接](http://moments.csail.mit.edu/)
-ActivityNet 1.3|动作行为识别|20,000 videos,200类|[链接](http://activity-net.org/challenges/2016/guidelines.html)
-Kinetics|动作行为识别|300,000 videos，400类|[链接](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
-AVA|动作行为识别|57,600 videos，80类|[链接](https://research.google.com/ava/)
-Collective Activity Dataset|群体活动行为识别|44 videos,穿叉、行走、等待、交谈和排队 五类|[链接](http://vhosts.eecs.umich.edu/vision//activity-dataset.html)
-Choi’s New Dataset|群体活动行为识别|32 videos，聚会，谈话，分开，一起走，追逐和排队 六类|None
-ActivityNet 1.3|检测动作事件的起始时间和终止时间|20,000 videos,200类动作的起始时间和终止时间|[链接](http://activity-net.org/challenges/2016/guidelines.html)
-THUMOS|检测动作事件的起始时间和终止时间|15,000 videos，101类动作的起始时间和终止时间|[链接](http://www.thumos.info/download.html)
-MED|事件检测|32,744 videos,20个事件|[链接](http://www-nlpir.nist.gov/projects/tv2017/data/)
-EventNet|事件检测|90,000 videos，500个事件|[链接](http://eventnet.ee.columbia.edu/)
-Columbia Consumer Video|事件检测|9,317 videos，20个事件|[链接](http://www.ee.columbia.edu/ln/dvmm/CCV/)
-ADE20K|事件检测|20,210 videos，900个事件|[链接](http://sceneparsing.csail.mit.edu/)
-DAVIS|视频主物体分割|50 videos，分割标注|[链接](http://davischallenge.org/)
-FBMS|视频主物体分割|59 videos，分割标注|[链接](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html)
-IJB-C|视频人脸识别|11,000 videos，|[链接](https://www.nist.gov/programs-projects/face-challenges)
-YouTube Faces|视频人脸识别|3,425 videos，1595 人|[链接](https://www.cs.tau.ac.il/~wolf/ytfaces/)
-MS-Celeb-1M|视频人脸识别|1,000,000 images，21,000人|[链接](http://www.msceleb.org/download/sampleset)
-MSVD|视频描述|1,970 videos|[链接](http://www.cs.utexas.edu/users/ml/clamp/videoDescription/YouTubeClips.tar)
-MSR-VTT-10K|视频描述|10，000 videos|[链接](http://ms-multimedia-challenge.com/2017/dataset)
-MSR-VTT-10K|视频描述|无|[链接](https://sites.google.com/site/describingmovies/lsmdc-2016/download)
-
-## Images Analysis
-数据集|介绍|备注|网址
-:--:|:--:|:--:|:--:|
-Flickr30k|图片描述|31,783 images，每张图片5个语句标注|[链接](http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/)
-Microsoft COCO|图片描述|330,000 images,每张图片至少5个语句标注|[链接](http://cocodataset.org/#download)
-ESP Game|多标签定义图像|20,770 images，268 tags，诸如bed, light man,music|[链接](https://www.kaggle.com/c/challenges-in-representation-learning-multi-modal-learning/data)
-IAPRTC-12|多标签定义图像|19,452 images,291 tags|[链接](http://www.imageclef.org/photodata)
-NUS-WIDE|多标签定义图像|269,648 images,several tags (2-5 on average) per image|[链接](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)
-CUHK-PEDES|以文搜图|34,054 images，每张图片2条描述|[链接](http://cuhk-pedes.shuanglee.me/)
-VRD|视觉关系检测|5,000 images, 100目录，37,993对关系|[链接](https://cs.stanford.edu/people/ranjaykrishna/vrd/)
-sVG|视觉关系检测|108,000 images, 998,000对关系|[链接](https://drive.google.com/file/d/0B5RJWjAhdT04SXRfVHBKZ0dOTzQ/view)
-Visual Genome Dataset|图像属性检测|108,077 images, 5.4 M 区域块，2.8 M 属性，2.3 M 关系|[链接](https://visualgenome.org/)
-VQA|问答系统|1,105,904问题，11,059,040 回答|[链接](http://www.visualqa.org/)
-Visual7W|问答系统|327,939 问答对|[链接](http://web.stanford.edu/~yukez/visual7w/)
-TID2013|图像质量评价|25张参考图像，24个失真类型|[链接](http://www.ponomarenko.info/tid2013.htm)
-CSIQ|图像质量评价|30张参考图像，6个失真类型|[链接](http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23)
-LIVE|图像质量评价|29张参考图像，5个失真类型|[链接](http://live.ece.utexas.edu/research/quality/subjective.htm)
-WATERLOO|图像质量评价|4744张参考图像，20个失真类型|[链接](https://ece.uwaterloo.ca/~k29ma/exploration/)
-photo.net|图像美观评价|20,278张图像，打分[0,10]|[链接](http://ritendra.weebly.com/aesthetics-datasets.html)
-DPChallenge.com|图像美观评价|16,509张图像，打分[0,10]|[链接](http://ritendra.weebly.com/aesthetics-datasets.html)
-CUHK|图像美观评价|28,410张图像，只分高质量和低质量|[链接](http://mmlab.ie.cuhk.edu.hk/archive/CUHKPQ/Dataset.htm)
-AVA|图像美观评价|255,500张图像，打分[0,10]|[链接](https://github.com/mtobeiyf/ava_downloader)
-
-## Images Analysis
+## Text
 数据集|介绍|备注|网址
 :--:|:--:|:--:|:--:|
 Stanford Sentiment Treebank|文本情感分析|11855个句子划分为239231个短语，每个短语有个概率值，越小越负面，越大越正面|[链接](https://nlp.stanford.edu/sentiment/)
