@@ -5,7 +5,7 @@ Tensorflow把数据输送到计算图的方式主要有三种：
 
 1. Constant: 把Dataset中的数据以const的形式存放在tensorflow的计算图中，主要使用的是`tf.constant`函数。这种形式主要适用于小数据集，由于数据固化到了计算图中，所以它的数据读取速度是最快的。
 
-2. Feeding: 这种方式是在每次`session.run`的时候，把numpy形式的数据输入到feed_dict参数中。这种方式主要包括两种存在的状态。  [参见一个例子](http://git.corp.kuaishou.com/zhangzhiwei/MultiLabel/blob/master/model/multi_CNNRNN/CNNTRNNDataProvider.py)
+2. Feeding: 这种方式是在每次`session.run`的时候，把numpy形式的数据输入到feed_dict参数中。这种方式主要包括两种存在的状态。  [参见一个例子]()
 >* 数据一次性全部load到内存中。自己维护一个`DataProvider`类，每次都会获取一部分训练数据。需要注意的是training的时候最好把数据集shuffle，但是test的时候最好不好shuffle。  
 >* 当训练数据无法一次性全部load到内存中区的时候，分批次load数据。自己维护的`DataProvider`类要做好队列的管理。这种形式的一个小的trick是可以每次载入的数据使用多次进行训练，这样可以减少重复地读取数据。
 
@@ -83,7 +83,7 @@ writer = tf.python_io.TFRecordWriter(output_file)
 example = balabala
 writer.write(example.SerializeToString())
 ```
-`writer.write`方法类似于`file`的方式，不停地向后追加example即可。[完整代码参考](http://git.corp.kuaishou.com/zhangzhiwei/MultiLabel/blob/master/model/multi_LabelTree/MultiLabelTreeBuildTFRecord.py)
+`writer.write`方法类似于`file`的方式，不停地向后追加example即可。[完整代码参考]()
 
 #### 2. 解析TFrecord
 解析TFrecord相对容易，直接使用跟生成TFrecord一样的`feature_map`即可，同样以dict的形式返回。使用`tf.parse_single_example(example_serialized, feature_map)`即可解析出一个相应的TFrecord样本。`example_serialized`会在`QueueRunner`详细介绍。
@@ -260,4 +260,4 @@ TRAING ITERS...
 coord.request_stop()
 coord.join(threads)
 ```
-全部的一个流程放在[MultiLabelTree](http://git.corp.kuaishou.com/zhangzhiwei/MultiLabel/tree/master/model/multi_LabelTree)。
+全部的一个流程放在[MultiLabelTree]()。
