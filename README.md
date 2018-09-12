@@ -43,7 +43,7 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 3. [Optimizer.pdf](./LearningTensorflow/Optimizer.pdf)，Tensorflow中相关优化函数介绍。
 
-4. [Identity.md](./LearningTensorflow/Identity.md)，最近看到有些TensorFlow的代码中使用到了tf.control_dependencies、tf.identity操作，这里做个简单的总结。
+4. [Identity-TF.md](./LearningTensorflow/Identity-TF.md)，最近看到有些TensorFlow的代码中使用到了tf.control_dependencies、tf.identity操作，这里做个简单的总结。
 
 ---
 
