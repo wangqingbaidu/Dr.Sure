@@ -45,6 +45,8 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 4. [Identity-TF.md](./LearningTensorflow/Identity-TF.md)，最近看到有些TensorFlow的代码中使用到了tf.control_dependencies、tf.identity操作，这里做个简单的总结。
 
+5. [tf.contrib.layers.optimize_loss.md](./LearningTensorflow/tf.contrib.layers.optimize_loss.md)，优化器选择，集成了三个优化参数的主要步骤。
+
 ---
 
 ## [code](./code)
