@@ -47,7 +47,8 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 5. [tf.contrib.layers.optimize_loss.md](./LearningTensorflow/tf.contrib.layers.optimize_loss.md)，优化器选择，集成了三个优化参数的主要步骤。
 
-6. [models.research.object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)源码解析，一点点解构models中的目标检测代码。
+6. [object_detection](./LearningTensorflow/object_detection)源码解析，一点点解构models中的目标检测代码。
+ > 源代码位置：[models.research.object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 ---
 
