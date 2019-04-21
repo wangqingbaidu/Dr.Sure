@@ -7,12 +7,6 @@ CSDN地址：[http://blog.csdn.net/wangqingbaidu](http://blog.csdn.net/wangqingb
 
 个人博客地址：[http://www.wangqingbaidu.cn/](http://www.wangqingbaidu.cn/)
 
-# Dr.Sure
-
-Some examples and urls are not available because of copyright. Join us, Join [Kwai](https://www.kuaishou.com/joinus.html) for details. 
-
-文档中的一些例子和连接可能无法显示，因为这些代码被部署在了公司的内网。当然如果想进一步了解，欢迎加入我们，加入[快手](https://www.kuaishou.com/joinus.html)多媒体内容理解组
-
 ---
 
 此目录包括2个文件夹，一个是[Algorithm](./Algorithm)，一个是[LearningTensorflow](./LearningTensorflow)。
