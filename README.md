@@ -7,12 +7,6 @@ CSDN地址：[http://blog.csdn.net/wangqingbaidu](http://blog.csdn.net/wangqingb
 
 个人博客地址：[http://www.wangqingbaidu.cn/](http://www.wangqingbaidu.cn/)
 
-# Dr.Sure
-
-Some examples and urls are not available because of copyright. Join us, Join [Kwai](https://www.kuaishou.com/joinus.html) for details. 
-
-文档中的一些例子和连接可能无法显示，因为这些代码被部署在了公司的内网。当然如果想进一步了解，欢迎加入我们，加入[快手](https://www.kuaishou.com/joinus.html)多媒体内容理解组
-
 ---
 
 此目录包括2个文件夹，一个是[Algorithm](./Algorithm)，一个是[LearningTensorflow](./LearningTensorflow)。
@@ -48,6 +42,9 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 4. [Identity-TF.md](./LearningTensorflow/Identity-TF.md)，最近看到有些TensorFlow的代码中使用到了tf.control_dependencies、tf.identity操作，这里做个简单的总结。
 
 5. [tf.contrib.layers.optimize_loss.md](./LearningTensorflow/tf.contrib.layers.optimize_loss.md)，优化器选择，集成了三个优化参数的主要步骤。
+
+6. [object_detection](./LearningTensorflow/object_detection)源码解析，一点点解构models中的目标检测代码。
+   > 源代码位置：[models.research.object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 ---
 
