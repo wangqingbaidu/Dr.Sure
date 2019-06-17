@@ -34,6 +34,8 @@ Some examples and urls are not available because of copyright. Join us, Join [Kw
 
 6. [ThinkinginWeaklySupervisedLearning](./Algorithm/ThinkinginWeaklySupervisedLearning.md)，弱监督学习的一些总结。
 
+7. [A Recipe for Training Neural Networks.md](./Algorithm/A_Recipe_for_Training_Neural_Networks.md), 大神Karpathy的经验之谈，转载自[Karpathy](http://karpathy.github.io/2019/04/25/recipe/)的博客。
+
 ---
 
 ## [LearningTensorflow](./LearningTensorflow)
