@@ -27,3 +27,5 @@
 
 	9. `HardExampleMiner`, Online困难样本挖掘的具体实现，参考论文：[
 Training Region-based Object Detectors with Online Hard Example Mining](https://arxiv.org/abs/1604.03540)
+
+3. [numpy_fc](numpy_fc.py)，基于Numpy的前向传播和反向传播，但却是框架设计最简单的雏形。
