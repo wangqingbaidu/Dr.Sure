@@ -7,7 +7,7 @@ KL散度是用来度量使用基于Q的编码来编码来自P的样本平均所�
 
 熵的定义：
 
-$$H(x)=\sum_{x \in X}P(x)log(\frac{1}{P(x)})$$
+$H(x)=\sum_{x \in X}P(x)log(\frac{1}{P(x)})$
 
 KL散度用来衡量两个分布之间的距离：
 
